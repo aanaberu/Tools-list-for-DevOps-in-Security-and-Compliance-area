@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Security Integration Overview</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Security Integration Overview</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#sast">Static Application Security Testing (SAST)</a></li>
+            <li><a href="#dast">Dynamic Application Security Testing (DAST)</a></li>
+            <li><a href="#sca">Software Composition Analysis (SCA)</a></li>
+            <li><a href="#container">Container Scanning</a></li>
         </ul>
     </nav>
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>This is a simple website created to demonstrate GitHub Pages hosting.</p>
+        <section id="sast">
+            <h2>Static Application Security Testing (SAST)</h2>
+            <p>SAST tools analyze source code or compiled versions of code to find security vulnerabilities during the development process.</p>
+            <p>Examples of SAST tools include Fortify Static Code Analyzer, Checkmarx, and SonarQube.</p>
+        </section>
+        <section id="dast">
+            <h2>Dynamic Application Security Testing (DAST)</h2>
+            <p>DAST tools test running web applications for security vulnerabilities by sending malicious requests and analyzing responses.</p>
+            <p>Examples of DAST tools include OWASP ZAP, Acunetix, and Burp Suite.</p>
+        </section>
+        <section id="sca">
+            <h2>Software Composition Analysis (SCA)</h2>
+            <p>SCA tools identify and manage open-source components and their dependencies to detect vulnerabilities and ensure license compliance.</p>
+            <p>Examples of SCA tools include Black Duck by Synopsys, WhiteSource Bolt, and Nexus Lifecycle.</p>
+        </section>
+        <section id="container">
+            <h2>Container Scanning</h2>
+            <p>Container scanning tools analyze container images for security vulnerabilities and policy violations.</p>
+            <p>Examples of container scanning tools include Clair, Trivy, and Aqua Security.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 Security Integration Overview. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
